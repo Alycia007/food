@@ -1,0 +1,166 @@
+@import url("NavBar/NavB.css");
+@import url("Footer/FooTer.css");
+@import url("Element/cards.css");
+@import url("Artcl/articles.css");
+@import url("slider/Slider.css");
+
+
+*{
+	margin: 0%;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+section{
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	padding: 100px;
+	display:flex;
+	justify-content:space-between;
+	align-items: center;
+	background-color: #fff;
+}
+
+.content {
+	position: relative;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.contenant .textBox{
+	position: relative;
+	max-width: 600px;
+}
+
+.contenant .textBox h2{
+	color: #333;
+	font-size: 4em;
+	line-height: 1.4em;
+	font-weight: 500;
+}
+
+.contenant .textBox h2 span{
+	color: #017143;
+	font-size: 1.2em;
+	font-weight: 900;
+}
+
+.contenant .textBox p {
+	color: #333;
+}
+
+.contenant .textBox a{
+	display: inline-block;
+	margin-top: 30px;
+	padding: 15px 20px;
+	background: #017143;
+	color: #fff;
+	border-radius: 70px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	text-decoration: none;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	animation: float 6s ease-in-out infinite;
+}
+
+.contenant .textBox a {
+	transition: tranform .7s ease-in-out;
+}
+.contenant .textBox a:hover {
+	transform:  rotate(360deg);
+}
+
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15PX 0px rgba(0, 0, 0, 0.6);
+		transform: translateY(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+		transform: translateY(-20px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+		transform: translateY(0px);
+		}
+}
+
+.starbucks {
+	max-width: 770px;
+}
+
+.thumb{
+	position: absolute;
+	left: 50%;
+	bottom: 20px;
+	transform: translate(-50%);
+	display: flex;
+}
+
+.thumb li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 15px;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+.thumb li:hover{
+	transform: translate(-15px);
+}
+
+.thumb li img{
+	max-width: 60px;
+}
+
+.thumb li img.purple{
+	max-width: 120px;
+	margin-top: -20px;
+	margin-right: -53px;
+}
+
+
+.New{
+	margin: 0%;
+	padding: 0;
+}
+
+.new img{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+
+/*slider*/
+.mySlides {
+	width: 600px;
+	height: 400px;
+	margin: auto;
+	border-radius: 10%;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 21px;
+}
+
+.cake {
+font-size: 2rem;
+color: rgb(13, 14, 13);
+margin-right: 70px;
+
+}
+
+.cake span{
+    font-size: 2rem;
+    color: green;
+    transition: 0.5s;
+    margin-right: 70px;
+}
+

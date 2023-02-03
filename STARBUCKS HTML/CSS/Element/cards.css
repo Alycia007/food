@@ -1,0 +1,170 @@
+.heading{
+	background-color: whitesmoke;
+	height: 25vh;
+	padding: 37px;
+}
+
+.heading h1{
+	font-size: 2rem;
+	color: green;
+	text-transform: uppercase;
+	transition: 0.5s;
+}
+
+.heading h1:hover{
+    -webkit-text-stroke: 2px green;
+    color: transparent;
+}
+
+.heading p{
+	font-weight: 200;
+	text-align: justify;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Element{
+	padding: 0;
+	background-color: whitesmoke;
+}
+
+.container{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+	padding: 70px;
+}
+
+.container img{
+	width: 140px;
+	position: absolute;
+	top: -8%;
+	z-index: 1;
+	transition: .2s;
+	margin-right: 90%;
+	cursor: pointer;
+}
+
+.container:hover img{
+	transform: scale(1.1);
+}
+
+.container img.violet{
+	width: 450px;
+	top: -17%;
+	position: absolute;
+	z-index: 1;
+	transition: .2s;
+	margin-left: 61%;
+}
+
+.container img.rose{
+	width: 140px;
+	position: absolute;
+	z-index: 1;
+	transition: .2s;
+	margin-left: 107%;
+}
+
+.container img.matcha{
+	width: 140px;
+	position: absolute;
+	z-index: 1;
+	transition: .2s;
+	margin-left: 155%;
+}
+
+.container img.choco{
+	width: 200px;
+	position: absolute;
+	z-index: 1;
+	transition: .2s;
+	margin-left: 21%;
+}
+
+.card {
+	position:relative;
+	width: 300px;
+	height: 350px;
+	background-color: #ffffff;
+	border-radius: 20px;
+	display: flex;
+	align-items: flex-end;
+	overflow: hidden;
+	margin-right: 30px;
+}
+
+.content {
+	width: 100%;
+	height: 240px;
+	padding: 0 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family:"poppins",sans-serif;
+	color: #4b352e ;
+}
+
+.content h3{
+	margin-top: 10px;
+	text-align: center;}
+
+.content p {
+	margin-top: -5px;
+	font-size: .8rem;
+	color: #4b352e ;
+	font-weight: 300;
+	text-align: justify;
+}
+
+.details{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+
+
+.details img{
+	width: 20px;
+	margin-top: 154px;
+	margin-left: 10px;
+}
+
+.button .bouton1{
+	width: 90px;
+	height: 45px;
+	outline: none;
+	border: none;
+	background: rgb(243, 207, 32);
+	font-family: "poppins", sans-serif;
+	cursor: pointer;
+	color: #ffffff;
+	font-weight: 500;
+	font-size: 1rem;
+	border-radius: 50px;
+	margin-bottom: 20px;
+	margin-left: -40px;
+	margin-left: -50px;
+}
+
+.button .bouton2{
+	width: 130%;
+	height: 45px;
+	outline: none;
+	border: none;
+	background: green;
+	font-family: "poppins", sans-serif;
+	cursor: pointer;
+	color: #f7f6f6;
+	font-weight: 500;
+	font-size: 1rem;
+	border-radius: 50px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+.button{
+	display: flex;
+}
+
